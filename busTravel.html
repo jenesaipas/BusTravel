@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--	Author: Susan Nagy
+		Date:	10/5/14
+		File:	busTravel.html
+		Purpose: Chapter 8 Exercise
+-->
+
+<html>
+<head>
+	<title>BUSINESS TRAVEL</title>
+	<link rel ="stylesheet" type="text/css" href="sample.css" />
+</head>
+
+<body>
+	<h1>BUSINESS TRAVEL REIMBURSEMENT FORM</h1>
+	<p>This program will calculate your Travel Reimbursement.</p>
+	<p><form action = "busTravel.php" method = "post">
+	<table>
+	<tr><td>Today's Date:</td><td><input type = "text" size = "20" name = "tripDate" /></td></tr>
+	<tr><td>Miles Travelled:</td><td><input type = "text" size = "20" name = "miles" /></td></tr>
+	<tr><td>Include breakfast as an expense?</td><td><select name = "breakfast">
+	<option>YES</option>
+	<option>NO</option>
+	</select></td></tr>
+	<tr><td>Include lunch as an expense?</td><td><select name = "lunch">
+	<option>YES</option>
+	<option>NO</option>
+	</select></td></tr>
+	<tr><td>Include dinner as an expense?</td><td><select name = "dinner">
+	<option>YES</option>
+	<option>NO</option>
+	</select></td></tr>
+	<tr><td>Include a hotel stay as an expense?</td><td><select name = "hotel">
+	<option>YES</option>
+	<option>NO</option>
+	</select></td></tr>
+	</table>
+	<input type = "submit" value = "Calculate My Reimbursement" />
+	</form></p>
+
+</body>
+</html>
